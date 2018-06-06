@@ -96,3 +96,10 @@ function compose (middleware) {
 })()
 
 ```
+
+```javaScript
+return fn(ctx).then(handleResponse).catch(onerror)。
+来看看这一句，fn 之前说过了，是所有的中间件函数的 “集合”， 用这一个中间件来表示整个处理过程。
+同时 fn 也是一个 async 函数，执行结果返回一个 promise 对象，
+同时 handleResponse 作为其 resolved 函数，onerror 是 rejected 函数。
+```

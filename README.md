@@ -15,15 +15,15 @@
 > npm上down下koa之后打开koa/lib文件夹可以看到四个文件，足以证明koa框架是多么简洁。（不过koa框架依赖了很多node_modules）
 
 ![image-20180528181625044](./img/1527502768570.jpg)
-- application.js 入口文件，也是骨架文件。
-- context.js 组装中间件中ctx参数文件。
-- request.js 处理请求文件。
-- response.js 处理返回文件。
+- application.js 入口文件，也是骨架文件，创建一个服务。
+- context.js app 的 context 对象, 传入中间件的上下文对象。
+- request.js app 的请求对象，包含请求相关的一些属性。
+- response.js app 的响应对象，包含响应相关的一些属性。
 
 #### 大致总的分为三章来分享一下koa源码
 
-[1. 第一章 Hellow Koa](./application.html)
+[1. 第一章 Hellow Koa](https://zwhgithub.github.io/koa-code/application.html)
 
-[2. 第二章 剖析Koa中间件](./middleware.html)
+[2. 第二章 剖析Koa中间件](https://zwhgithub.github.io/koa-code/application.html)
 
-[3. 第三章 ctx的来源](./context.html)
+[3. 第三章 ctx的来源](https://zwhgithub.github.io/koa-code/application.html)
