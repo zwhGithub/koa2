@@ -22,8 +22,4 @@
 
 #### 大致总的分为三章来分享一下koa源码
 
-[1. 第一章 Hellow Koa](https://zwhgithub.github.io/koa2/src/application.html)
-
-[2. 第二章 剖析Koa中间件](https://zwhgithub.github.io/koa2/src/middleware.html)
-
-[3. 第三章 ctx的来源](https://zwhgithub.github.io/koa2/src/context.html)
+[1. 第一章 Hellow Koa](https://mp.weixin.qq.com/s/PiI4PTzUBNLPm2cKd71lyw)
